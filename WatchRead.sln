@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back-end", "Back-end", "{85971561-0CB9-4142-B8D1-98D9A657D41A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{DB0A79B6-68E7-4854-AC38-D400AE43B027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.WebApi", "Back-end\WatchRead.WebApi\WatchRead.WebApi.csproj", "{5697EF44-5D31-402F-A04D-912C749D5C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.EntityLayer", "Back-end\WatchRead.EntityLayer\WatchRead.EntityLayer.csproj", "{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.BusinessLayer", "Back-end\WatchRead.BusinessLayer\WatchRead.BusinessLayer.csproj", "{4F975676-5A1A-4567-B91F-F3D77CF4CD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.DtoLayer", "Back-end\WatchRead.DtoLayer\WatchRead.DtoLayer.csproj", "{663D1A95-3578-4B89-8C3A-3E13ADCBBF71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.DataAccessLayer", "Back-end\WatchRead.DataAccessLayer\WatchRead.DataAccessLayer.csproj", "{5F79E001-C417-45FB-82F1-28F3D86E1355}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5697EF44-5D31-402F-A04D-912C749D5C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5697EF44-5D31-402F-A04D-912C749D5C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5697EF44-5D31-402F-A04D-912C749D5C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5697EF44-5D31-402F-A04D-912C749D5C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F975676-5A1A-4567-B91F-F3D77CF4CD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F975676-5A1A-4567-B91F-F3D77CF4CD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F975676-5A1A-4567-B91F-F3D77CF4CD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F975676-5A1A-4567-B91F-F3D77CF4CD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663D1A95-3578-4B89-8C3A-3E13ADCBBF71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663D1A95-3578-4B89-8C3A-3E13ADCBBF71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663D1A95-3578-4B89-8C3A-3E13ADCBBF71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663D1A95-3578-4B89-8C3A-3E13ADCBBF71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F79E001-C417-45FB-82F1-28F3D86E1355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F79E001-C417-45FB-82F1-28F3D86E1355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F79E001-C417-45FB-82F1-28F3D86E1355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F79E001-C417-45FB-82F1-28F3D86E1355}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5697EF44-5D31-402F-A04D-912C749D5C55} = {85971561-0CB9-4142-B8D1-98D9A657D41A}
+		{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F} = {85971561-0CB9-4142-B8D1-98D9A657D41A}
+		{4F975676-5A1A-4567-B91F-F3D77CF4CD36} = {85971561-0CB9-4142-B8D1-98D9A657D41A}
+		{663D1A95-3578-4B89-8C3A-3E13ADCBBF71} = {85971561-0CB9-4142-B8D1-98D9A657D41A}
+		{5F79E001-C417-45FB-82F1-28F3D86E1355} = {85971561-0CB9-4142-B8D1-98D9A657D41A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FEF2B3C-ACAD-4F60-815B-0B3F485927AE}
+	EndGlobalSection
+EndGlobal
