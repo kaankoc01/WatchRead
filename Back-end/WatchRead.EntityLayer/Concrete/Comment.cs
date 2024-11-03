@@ -13,5 +13,9 @@ namespace WatchRead.EntityLayer.Concrete
         public int ContentId { get; set; }
         public string Text { get; set; }
         public DateTime CreatedDate { get; set; }
+
+        // Navigasyon özellikleri
+        public User User { get; set; }
+        public Content Content { get; set; }
     }
 }

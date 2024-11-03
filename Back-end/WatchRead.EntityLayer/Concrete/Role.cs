@@ -10,5 +10,8 @@ namespace WatchRead.EntityLayer.Concrete
     {
         public int RoleId { get; set; }
         public string RoleName { get; set; }
+
+        // UserRole ile olan ilişki
+        public ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
     }
 }

@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace WatchRead.EntityLayer.Concrete
 {
-    public class Favorite
+    public class UserRole
     {
-        public int FavoriteId { get; set; }
         public int UserId { get; set; }
-        public int ContentId { get; set; }
-        public DateTime AddedDate { get; set; }
-
-        // Navigasyon özellikleri
         public User User { get; set; }
-        public Content Content { get; set; }
+
+        public int RoleId { get; set; }
+        public Role Role { get; set; }
     }
 }

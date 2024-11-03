@@ -1,0 +1,8 @@
+﻿
+User → Comment, Favorite ve Rating ile ilişkilidir.
+
+Content → Comment, Favorite ve Rating ile ilişkilidir.
+
+Content → Category ve Genre ile ilişkilidir.
+
+Genre ve Content arasında ContentGenre üzerinden çoktan çoğa ilişki kurulur.

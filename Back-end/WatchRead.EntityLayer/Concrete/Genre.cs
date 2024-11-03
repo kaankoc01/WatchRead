@@ -10,5 +10,8 @@ namespace WatchRead.EntityLayer.Concrete
     {
         public int GenreId { get; set; }
         public string GenreName { get; set; }
+
+        // Genre ile ContentGenre arasındaki ilişki
+        public ICollection<ContentGenre> ContentGenres { get; set; }
     }
 }

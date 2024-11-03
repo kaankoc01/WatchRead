@@ -8,9 +8,13 @@ namespace WatchRead.EntityLayer.Concrete
 {
     public class ContentGenre
     {
-        // içerik tür ilişkilendirmesi , bir içerik birden fazla türe sahip olduğunda kullanılacak. Hem aksiyon
-        // hem bilim kurgu gibi.
+        // içerik tür ilişkilendirmesi , bir içerik birden fazla türe sahip olduğunda kullanılacak.
+        // Hem aksiyon ,  hem bilim kurgu gibi.
+
         public int ContentId { get; set; }
+        public Content Content { get; set; } // İlişkiyi temsil eder
+
         public int GenreId { get; set; }
+        public Genre Genre { get; set; } // İlişkiyi temsil eder
     }
 }

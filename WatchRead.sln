@@ -6,16 +6,19 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back-end", "Back-end", "{85971561-0CB9-4142-B8D1-98D9A657D41A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ToDoList", "ToDoList", "{DB0A79B6-68E7-4854-AC38-D400AE43B027}"
+	ProjectSection(SolutionItems) = preProject
+		İlişkiler.txt = İlişkiler.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.WebApi", "Back-end\WatchRead.WebApi\WatchRead.WebApi.csproj", "{5697EF44-5D31-402F-A04D-912C749D5C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchRead.WebApi", "Back-end\WatchRead.WebApi\WatchRead.WebApi.csproj", "{5697EF44-5D31-402F-A04D-912C749D5C55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.EntityLayer", "Back-end\WatchRead.EntityLayer\WatchRead.EntityLayer.csproj", "{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchRead.EntityLayer", "Back-end\WatchRead.EntityLayer\WatchRead.EntityLayer.csproj", "{1B7506E6-E5BA-4B60-875A-F6EE646CCD8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.BusinessLayer", "Back-end\WatchRead.BusinessLayer\WatchRead.BusinessLayer.csproj", "{4F975676-5A1A-4567-B91F-F3D77CF4CD36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchRead.BusinessLayer", "Back-end\WatchRead.BusinessLayer\WatchRead.BusinessLayer.csproj", "{4F975676-5A1A-4567-B91F-F3D77CF4CD36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.DtoLayer", "Back-end\WatchRead.DtoLayer\WatchRead.DtoLayer.csproj", "{663D1A95-3578-4B89-8C3A-3E13ADCBBF71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchRead.DtoLayer", "Back-end\WatchRead.DtoLayer\WatchRead.DtoLayer.csproj", "{663D1A95-3578-4B89-8C3A-3E13ADCBBF71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchRead.DataAccessLayer", "Back-end\WatchRead.DataAccessLayer\WatchRead.DataAccessLayer.csproj", "{5F79E001-C417-45FB-82F1-28F3D86E1355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatchRead.DataAccessLayer", "Back-end\WatchRead.DataAccessLayer\WatchRead.DataAccessLayer.csproj", "{5F79E001-C417-45FB-82F1-28F3D86E1355}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

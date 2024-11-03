@@ -27,4 +27,8 @@
     <ProjectReference Include="..\WatchRead.EntityLayer\WatchRead.EntityLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
