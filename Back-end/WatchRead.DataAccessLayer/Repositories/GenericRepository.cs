@@ -12,7 +12,7 @@ namespace WatchRead.DataAccessLayer.Repositories
     public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         private readonly Context _context;
-        private readonly DbSet<T> _dbSet;
+        protected readonly DbSet<T> _dbSet;
 
         public GenericRepository(Context context)
         {
@@ -46,6 +46,10 @@ namespace WatchRead.DataAccessLayer.Repositories
         {
             _dbSet.Update(entity);
             await _context.SaveChangesAsync();
+        }
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync(); // Veritabanına kaydedin
         }
     }
 }

@@ -65,7 +65,9 @@ namespace WatchRead.BusinessLayer.Mapping
             CreateMap<User, UpdateUserDto>().ReverseMap();
 
             // UserRole
-            CreateMap<UserRole, UserRoleDto>().ReverseMap();
+            CreateMap<UserRole, ResultUserRoleDto>().ReverseMap();
+            CreateMap<UserRole, CreateUserRoleDto>().ReverseMap();
+            CreateMap<UserRole, UpdateUserRoleDto>().ReverseMap();
             // Diğer dönüşümleri burada tanımlayın
         }
     }

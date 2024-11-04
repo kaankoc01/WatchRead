@@ -11,5 +11,6 @@ namespace WatchRead.DtoLayer.DTOs.ContentDto
         public int ContentId { get; set; } // Güncellenecek içeriğin ID'si
         public string Title { get; set; } // Güncellenmiş başlık
         public string Description { get; set; } // Güncellenmiş açıklama
+        public string Type { get; set; } // Bu alanı kontrol edin
     }
 }

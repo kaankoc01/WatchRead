@@ -8,8 +8,14 @@ namespace WatchRead.DtoLayer.DTOs.UserDto
 {
     public class ResultUserDto
     {
-        public int UserId { get; set; } // Kullanıcının ID'si
-        public string Username { get; set; } // Kullanıcı adı
-        public string Email { get; set; } // Kullanıcı e-posta adresi
+        public int UserId { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string PasswordHash { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

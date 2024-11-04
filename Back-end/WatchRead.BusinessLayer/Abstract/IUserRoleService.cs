@@ -9,5 +9,6 @@ namespace WatchRead.BusinessLayer.Abstract
 {
     public interface IUserRoleService : IGenericService<UserRole>
     {
+        Task<UserRole> TGetByUserIdAndRoleIdAsync(int userId, int roleId);
     }
 }

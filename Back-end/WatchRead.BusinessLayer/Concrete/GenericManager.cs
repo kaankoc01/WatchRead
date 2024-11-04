@@ -20,6 +20,7 @@ namespace WatchRead.BusinessLayer.Concrete
         public async Task TAddAsync(T entity)
         {
             await _genericDal.AddAsync(entity);
+            
         }
 
         public async Task TDeleteAsync(T entity)

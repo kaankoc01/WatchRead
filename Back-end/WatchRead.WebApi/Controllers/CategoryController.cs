@@ -21,16 +21,6 @@ namespace WatchRead.WebApi.Controllers
             _mapper = mapper;
         }
 
-        //// GET: api/category
-        //[HttpGet]
-        //public async Task<ActionResult<List<ResultCategoryDto>>> GetAllCategories()
-        //{
-        //    var categories = await _categoryService.TGetAllAsync();
-        //    var categoryDtos = _mapper.Map<List<ResultCategoryDto>>(categories);
-        //    return Ok(categoryDtos);
-        //}
-
-
         // GET: api/Category
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ResultCategoryDto>>> GetCategories()

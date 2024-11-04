@@ -113,6 +113,12 @@ namespace WatchRead.DataAccessLayer.Migrations
                     b.Property<int>("GenreId")
                         .HasColumnType("int");
 
+                    b.Property<int>("ContentGenreId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContentGenreId"), 1L, 1);
+
                     b.HasKey("ContentId", "GenreId");
 
                     b.HasIndex("GenreId");
@@ -259,6 +265,12 @@ namespace WatchRead.DataAccessLayer.Migrations
 
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
+
+                    b.Property<int>("UserRoleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserRoleId"), 1L, 1);
 
                     b.HasKey("UserId", "RoleId");
 

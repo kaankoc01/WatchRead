@@ -17,5 +17,9 @@ namespace WatchRead.BusinessLayer.Concrete
         {
             _userRoleDal = userRoleDal;
         }
+        public async Task<UserRole> TGetByUserIdAndRoleIdAsync(int userId, int roleId)
+        {
+            return await _userRoleDal.GetAsync(ur => ur.UserId == userId && ur.RoleId == roleId);
+        }
     }
 }

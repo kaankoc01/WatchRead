@@ -12,6 +12,7 @@ namespace WatchRead.DtoLayer.DTOs.ContentDto
         public string Title { get; set; } // İçeriğin başlığı
         public string Description { get; set; } // İçeriğin açıklaması
         public decimal Rating { get; set; } // İçeriğin genel puanı
+        public string Type { get; set; } // Bu alanı kontrol edin
         public DateTime ReleasedDate { get; set; } // İçeriğin yayın tarihi
     }
 }

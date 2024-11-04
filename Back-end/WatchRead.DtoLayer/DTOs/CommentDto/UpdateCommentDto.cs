@@ -8,7 +8,10 @@ namespace WatchRead.DtoLayer.DTOs.CommentDto
 {
     public class UpdateCommentDto
     {
-        public int CommentId { get; set; } // Güncellenecek yorumun ID'si
-        public string Text { get; set; } // Güncellenmiş yorum metni
+        public int CommentId { get; set; }
+        public int UserId { get; set; }
+        public int ContentId { get; set; }
+        public string Text { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

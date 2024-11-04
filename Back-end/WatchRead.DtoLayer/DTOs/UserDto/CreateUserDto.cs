@@ -8,8 +8,13 @@ namespace WatchRead.DtoLayer.DTOs.UserDto
 {
     public class CreateUserDto
     {
-        public string Username { get; set; } // Kullanıcı adı
-        public string Email { get; set; } // Kullanıcı e-posta adresi
-        public string Password { get; set; } // Kullanıcı şifresi
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string PasswordHash { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }
