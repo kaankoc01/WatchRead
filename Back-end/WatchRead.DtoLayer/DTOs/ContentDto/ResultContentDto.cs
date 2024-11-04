@@ -8,7 +8,7 @@ namespace WatchRead.DtoLayer.DTOs.ContentDto
 {
     public class ResultContentDto
     {
-        public int Id { get; set; }
+        public int ContentId { get; set; }
         public string Title { get; set; } // İçeriğin başlığı
         public string Description { get; set; } // İçeriğin açıklaması
         public decimal Rating { get; set; } // İçeriğin genel puanı

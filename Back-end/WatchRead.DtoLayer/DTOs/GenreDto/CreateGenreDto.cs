@@ -8,6 +8,6 @@ namespace WatchRead.DtoLayer.DTOs.GenreDto
 {
     public class CreateGenreDto
     {
-        public string Name { get; set; } // Tür adı
+        public string GenreName { get; set; } // Tür adı
     }
 }

@@ -10,6 +10,9 @@ namespace WatchRead.DataAccessLayer.Concrete
 {
     public class Context : DbContext
     {
+        public Context(DbContextOptions<Context> options) : base(options)
+        {
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server =.\\SQLEXPRESS; initial catalog=WatchReadDb;integrated security=true");

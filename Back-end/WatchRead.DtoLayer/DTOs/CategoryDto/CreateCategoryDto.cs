@@ -8,6 +8,6 @@ namespace WatchRead.DtoLayer.DTOs.CategoryDto
 {
     public class CreateCategoryDto
     {
-        public string Name { get; set; }
+        public string CategoryName { get; set; }
     }
 }

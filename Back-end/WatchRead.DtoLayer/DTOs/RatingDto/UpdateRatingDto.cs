@@ -8,7 +8,7 @@ namespace WatchRead.DtoLayer.DTOs.RatingDto
 {
     public class UpdateRatingDto
     {
-        public int Id { get; set; } // Güncellenecek puanlama kaydının ID'si
+        public int RatingId { get; set; } // Güncellenecek puanlama kaydının ID'si
         public decimal Score { get; set; } // Güncellenmiş puan
     }
 }

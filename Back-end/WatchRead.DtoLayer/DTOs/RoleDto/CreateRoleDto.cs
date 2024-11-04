@@ -8,6 +8,6 @@ namespace WatchRead.DtoLayer.DTOs.RoleDto
 {
     public class CreateRoleDto
     {
-        public string Name { get; set; } // Rol adı
+        public string RoleName { get; set; } // Rol adı
     }
 }

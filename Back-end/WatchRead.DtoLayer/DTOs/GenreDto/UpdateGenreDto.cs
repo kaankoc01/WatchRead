@@ -8,7 +8,7 @@ namespace WatchRead.DtoLayer.DTOs.GenreDto
 {
     public class UpdateGenreDto
     {
-        public int Id { get; set; } // Güncellenecek türün ID'si
-        public string Name { get; set; } // Güncellenmiş tür adı
+        public int GenreId { get; set; } // Güncellenecek türün ID'si
+        public string GenreName { get; set; } // Güncellenmiş tür adı
     }
 }

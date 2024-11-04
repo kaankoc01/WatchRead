@@ -8,7 +8,7 @@ namespace WatchRead.DtoLayer.DTOs.RoleDto
 {
     public class UpdateRoleDto
     {
-        public int Id { get; set; } // Güncellenecek rolün ID'si
-        public string Name { get; set; } // Güncellenmiş rol adı
+        public int RoleId { get; set; } // Güncellenecek rolün ID'si
+        public string RoleName { get; set; } // Güncellenmiş rol adı
     }
 }
